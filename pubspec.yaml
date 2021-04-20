@@ -1,0 +1,121 @@
+name: scribbly
+description: crowdsharing ideas
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  provider: ^4.3.2+2
+
+  http:
+
+  path_provider:
+
+  flutter_spinkit: ^4.1.2+1
+
+  font_awesome_flutter:
+
+  # firebase_core:
+
+  # cloud_firestore:
+
+  # firebase_auth:
+
+  # firebase_storage:
+
+  # esys_flutter_share:
+
+  image_picker:
+
+  intl:
+
+  timeago:
+
+  sqflite:
+
+  zefyr:
+
+  flutter_link_preview:
+
+  cached_network_image:
+
+  flutter_bloc:
+
+  bloc:
+
+  masonry_grid: ^0.3.1+2
+
+  flutter_staggered_grid_view:
+
+  flutter_page_transition:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/Resources/Splash/
+    - lib/Resources/Icons/
+    - lib/Resources/Flags/
+    - lib/Resources/Media/Photos/
+    - lib/Resources/Profile/
+    - lib/Resources/Media/Photos/Background/
+    - lib/Resources/Docs/
+
+  fonts:
+    - family: Emporia
+      fonts:
+        - asset: lib/Resources/Fonts/EmporiaRegular.otf
+
+    - family: Sebino
+      fonts:
+        - asset: lib/Resources/Fonts/Sebino-Bold.ttf
+
+    - family: Astra
+      fonts:
+        - asset: lib/Resources/Fonts/astra.ttf
+
+    - family: Roboto
+      fonts:
+        - asset: lib/Resources/Fonts/RobotoMono-Regular.ttf
+        - asset: lib/Resources/Fonts/RobotoMono-Bold.ttf
+
+    - family: Playfair
+      fonts:
+        - asset: lib/Resources/Fonts/PlayfairDisplay-Regular.ttf
+        - asset: lib/Resources/Fonts/PlayfairDisplay-Bold.ttf
+
+    - family: Blanco
+      fonts:
+        - asset: lib/Resources/Fonts/Blanco-Bold.ttf
+
+    - family: Helvetica
+      fonts:
+        - asset: lib/Resources/Fonts/HelveticaNeueBd.ttf
+
+    - family: Sailor
+      fonts:
+        - asset: lib/Resources/Fonts/SAILORRegular.ttf
+        - asset: lib/Resources/Fonts/SAILORBold.ttf
+
+    - family: Proxima
+      fonts:
+        - asset: lib/Resources/Fonts/ProximaNova-Regular.otf
+        - asset: lib/Resources/Fonts/ProximaNova-Bold.otf
+        - asset: lib/Resources/Fonts/ProximaNova-Extrabold.otf
+
+    - family: Paul
+      fonts:
+        - asset: lib/Resources/Fonts/PaulGrotesk-Bold-Trail.otf
